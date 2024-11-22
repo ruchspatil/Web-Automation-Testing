@@ -2,7 +2,7 @@
 
 This project uses Selenium WebDriver with Python to automate testing for the Expense Tracker Web Application. The automated tests ensure that the application’s core functionalities, such as adding, editing, and deleting expenses, work as expected.
 
-## Technologies Used
+## Technologies Used:
 
 Python: Programming language used to write the test scripts.<br>
 Selenium WebDriver: A browser automation tool used to simulate user actions and validate functionality.<br>
@@ -18,7 +18,7 @@ Test Case 5: Verify the Edit functionality for an existing expense<br>
 Test Case 6: Verify the Delete functionality for an existing expense<br>
 Test Case 7: Verify the Expense List is updated after Add/Edit/Delete actions
 
-## Running Automated Tests
+## Running Automated Tests:
 To run the automated tests using Selenium with Python:
 
 1. Install required dependencies:
