@@ -10,7 +10,6 @@ driver = webdriver.Chrome(executable_path='/path/to/chromedriver')  # Adjust pat
 # Open the website
 driver.get("https://expensetracker-site.netlify.app/")
 
-# Maximize the window for better visibility
 driver.maximize_window()
 
 try:
