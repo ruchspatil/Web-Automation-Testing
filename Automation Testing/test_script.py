@@ -15,7 +15,7 @@ try:
     get_started_button.click()
     time.sleep(2)  
    
-    expense_name = driver.find_element(By.NAME, "expenseName")  # Adjust if the name of the field is different
+    expense_name = driver.find_element(By.NAME, "expenseName") 
     amount = driver.find_element(By.NAME, "amount")  
     
     expense_name.send_keys("Lunch")
