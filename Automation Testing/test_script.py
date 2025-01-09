@@ -20,13 +20,11 @@ try:
     
     expense_name.send_keys("Lunch")
     amount.send_keys("15.50")
-    
-  
+     
     add_expense_button = driver.find_element(By.XPATH, "//button[text()='Add Expense']")
     add_expense_button.click()
     time.sleep(2)  
-
-   
+ 
     expense_list = driver.find_element(By.XPATH, "//div[@class='expense-list']")  
     expense_items = expense_list.find_elements(By.TAG_NAME, "li") 
     
