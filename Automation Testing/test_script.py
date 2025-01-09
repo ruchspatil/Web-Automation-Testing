@@ -50,7 +50,7 @@ try:
     assert updated_amount.text == "20.00", f"Amount not updated. Found: {updated_amount.text}"
 
 
-    delete_button = first_expense.find_element(By.XPATH, ".//button[text()='Delete']")  # Adjust as per your actual DOM
+    delete_button = first_expense.find_element(By.XPATH, ".//button[text()='Delete']") 
     delete_button.click()
     time.sleep(2)
     
